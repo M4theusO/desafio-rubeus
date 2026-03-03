@@ -1,3 +1,10 @@
+# 🐞 Relatório de Bugs – Página Site
+
+**URL testada:**  
+https://qualidade.apprbs.com.br/certificacao
+
+---
+
 Item 01 - Erro ao tentar assinar a newsletter
 Tipo: Correção
 Classificação: Utilidade
