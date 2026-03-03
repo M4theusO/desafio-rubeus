@@ -15,28 +15,21 @@ Feature: Página Site - Comportamentos esperados
 
   ####################################################################
 
-  Scenario: Link Atendimento direciona para canal correto
-    Given que o usuário acessa "https://qualidade.apprbs.com.br/site"
-    When ele clica no link "Atendimento"
-    Then o sistema deve redirecionar para o canal oficial de atendimento
-
-  ####################################################################
-
   Scenario: Link WhatsApp direciona para canal oficial do WhatsApp
     Given que o usuário acessa "https://qualidade.apprbs.com.br/site"
     When ele clica no link "WhatsApp"
     Then o sistema deve redirecionar para o WhatsApp oficial da empresa
 
-  ####################################################################
+####################################################################
 
-  Scenario Outline: Links do header realizam navegação interna sem abrir nova guia
+  Scenario: Link "Institucional" direciona para a página principal da empresa
     Given que o usuário acessa "https://qualidade.apprbs.com.br/site"
-    When ele clica no link "<link>"
-    Then o sistema deve navegar para a seção correspondente na mesma página
-    And não deve abrir uma nova guia no navegador
+    When ele clica no link "Institucional"
+    Then o sistema deve redirecionar para o site oficial da empresa
 
-    Examples:
-      | link                  |
-      | Nossos diferenciais   |
-      | Eventos               |
-      | Depoimentos           |
+    ####################################################################
+
+  Scenario: Link "Biblioteca" direciona para a página de base de conhecimento
+    Given que o usuário acessa "https://qualidade.apprbs.com.br/site"
+    When ele clica no link "Biblioteca"
+    Then o sistema deve redirecionar para a página de base de conhecimento

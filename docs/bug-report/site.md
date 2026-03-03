@@ -46,24 +46,19 @@ Ambos os links redirecionam para o WhatsApp.
 
 ---
 
-## 🟠 Item 03 – Links do header executam duas ações simultaneamente
+## 🟡 Item 03 – Botão "Concluir" sem margem
 
 **Tipo:** Melhoria  
-**Classificação:** Usabilidade  
-**Prioridade:** Média  
+**Classificação:** Desejabilidade  
+**Prioridade:** Baixa  
 
 ### Passos para reproduzir
 1. Acessar a página https://qualidade.apprbs.com.br/site  
-2. Clicar em um dos links do header:
-   - "Nossos diferenciais"
-   - "Eventos"
-   - "Depoimentos"
+2. Ir até a sessão da assinatura da newsletter  
+3. Visualizar botão "Concluir"
 
 ### Resultado esperado
-O link deve executar apenas uma ação:
-- Realizar navegação interna para a seção correspondente
+Botão com espaçamento e margens adequadas.
 
 ### Resultado atual
-O sistema abre uma nova guia no navegador e, ao retornar para a guia original, o usuário é direcionado automaticamente para a seção correspondente.
-
-Esse comportamento pode gerar confusão na navegação.
+Botão "grudado" no input de telefone, prejudicando a experiência do usuário.
